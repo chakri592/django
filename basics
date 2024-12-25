@@ -39,6 +39,15 @@ python manage.py runserver
 
 (ctrl+c)-->to stop the server.
 
+#shift the envirnoment
+workon (envirnoment_name)
+
+#( create the app)
+python manage.py startapp calc
+#(the above app should be created in chakri/  contains calc,manage)
+
+
+
 
 
 
