@@ -1,0 +1,44 @@
+#installation 
+python --version
+
+#(python installation is required )
+pip --version
+
+#(package installation for python)
+django-admin --version
+
+#(verfication for whether django is present or not)
+pip install virtualenvwrapper-win
+
+#(package for installation of virtual envirnoment)
+mkvirtualenv test or python -m venv myworld
+
+#(starting the envirnoment)
+.\env\Scripts\activate
+
+#(creating the test envirnoment)
+pip install django
+
+#(installation of django)
+mkdir projects
+
+#(create the folder projects)
+cd projects
+
+#(starting the project)
+django-admin startproject chakri
+
+#(it will create the folder chakri/manage
+#                                 /chakri(folder)
+#                                  /__init__(file)
+#                                  /settings(file)
+#                                  /urls(file)
+#                                  /wsgi(file))
+
+python manage.py runserver
+
+(ctrl+c)-->to stop the server.
+
+
+
+
