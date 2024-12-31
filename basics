@@ -13,6 +13,9 @@ pip install virtualenvwrapper-win
 #(package for installation of virtual envirnoment)
 mkvirtualenv test or python -m venv myworld
 
+#attaching the envirnoment is like 
+(envirnoment_name)\Scripts\activate.bat
+
 #(starting the envirnoment)
 .\env\Scripts\activate
 
