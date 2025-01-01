@@ -49,6 +49,35 @@ workon (envirnoment_name)
 python manage.py startapp calc
 #(the above app should be created in chakri/  contains calc,manage)
 
+#create the app
+
+python manage.py startapp (app_name)
+
+
+
+
+
+
+
+
+#what is http protocol:
+#where are requesting something and getting something is called http protocol.
+
+it has may request methods like:
+
+get,post,put,delete,head,connect,option,trace,patch
+
+GET:
+
+where ever you want fetch from the server.
+
+post:
+
+is to add the data to the server.
+
+put:
+
+is to update the data in the server.
 
 
 
