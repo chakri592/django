@@ -11,10 +11,11 @@ django-admin --version
 pip install virtualenvwrapper-win
 
 #(package for installation of virtual envirnoment)
-mkvirtualenv test or python -m venv myworld
+mkvirtualenv test or (python -m venv myworld---->vs code)
 
 #attaching the envirnoment is like 
-(envirnoment_name)\Scripts\activate.bat
+(envirnoment_name)\Scripts\activate.bat.......(.\myworld\Scripts\Activate.ps1--->vs code)
+
 
 #(starting the envirnoment)
 .\env\Scripts\activate
