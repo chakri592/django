@@ -44,7 +44,7 @@ python manage.py runserver
 (ctrl+c)-->to stop the server.
 
 #shift the envirnoment
-workon (envirnoment_name)
+workon (envirnoment_name)---->directly enter the command to work-on virtual envirnoment.
 
 #( create the app)
 python manage.py startapp calc
